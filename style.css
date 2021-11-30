@@ -1,0 +1,80 @@
+body {
+    font-family: "Consolas", Arial, Helvetica, Sans-serif;
+}
+
+.flex-conteiner-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-conteiner-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-conteiner-2-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.flex-conteiner-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+}
+
+h1 {
+    font-size: 72px;
+    text-transform: uppercase;
+    
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid red;
+    width: 40px;
+    margin: 5px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 35px;
+    padding: 10px 0;
+    background-color: royalblue;
+    color: seashell;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(5, 87, 119);
+}
+
+.certa, .certa:hover {
+    background-color: skyblue;
+    border:  1px solid skyblue;
+    cursor: inherit;
+}
+
+.errada, .errada:hover {
+    background-color: red;
+    border:  1px solid red;
+    cursor: inherit;
+}
